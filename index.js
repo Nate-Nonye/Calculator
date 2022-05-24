@@ -40,7 +40,7 @@ document.querySelectorAll("button")[i].addEventListener("click", function(){
                                             break;
                                             case "/": screenContent.innerHTML += buttonInnerHTML
                                               break;
-                                              case "X": screenContent.innerHTML += buttonInnerHTML
+                                              case "*": screenContent.innerHTML += buttonInnerHTML
                                                 break;
                                               case "=": screenContent.innerHTML = eval(screenContent.innerHTML);
                                                 break;
